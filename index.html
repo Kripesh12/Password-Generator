@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Karla:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="flex-center">
+    <main>
+        <header>
+            <h1>Generate a<br><span>random password</span></h1>
+            <h4>Never use an insecure password again</h4>
+        </header>
+        <!-- <button class="flex-center" id="main-button"><img src="./flash.png">Generate Passwords</button> -->
+        <input type="range" min="6" max="20" value="12" id="slider-el">
+        <p>Charecters: <span id="char-el">12</span></p>
+        </div>
+        <div class="border"></div>
+        <div class="input-field">
+            <div class="first-row">
+                <input type="text" id="first" class="input-el" onclick="copyOne()" readonly>
+                <input type="text" id="second" class="input-el" onclick="copyTwo()" readonly>
+            </div>
+            
+            <div class="second-row">
+                <input type="text" id="third" class="input-el" onclick="copyThree()" readonly>
+                <input type="text" id="fourth" class="input-el" onclick="copyFour()" readonly>
+            </div>
+            
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>

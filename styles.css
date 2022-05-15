@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    
+}
+
+main{
+    width: 550px;
+    height: 550px;
+    background-color: #1F2937;
+    padding: 0 52px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+
+h1{
+    font-family: 'Karla', sans-serif;
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 118px;
+    line-height: 40px;
+}
+
+h4{
+    font-family: 'Inter', sans-serif;
+    color: #D5D4D8;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 10px;
+}
+p{
+    color: #D5D4D8;
+    font-family: 'Intre', sans-serif;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+span{
+    color: #4ADF86;
+}
+
+input{
+    width: 210px;
+    height: 39px;
+    background-color: #273549;
+    border-radius: 6px;
+    font-family: 'Inter';
+    color: #5bff9c;
+    font-size: 16px;
+    font-weight: 500px;
+    outline: none;
+    border: none;
+    text-align: center;
+    opacity: 0.7;
+}
+
+input:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+/* input output */
+.input-holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-row, .second-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-row{
+    margin-top: 35px;
+}
+
+.second-row{
+    margin-top: 27px;
+}
+
+/* utility class */
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border{
+    height: 2px;
+    background-color: #2F3E53;
+    margin-top: 35px;
+}
+
+/* slider-style */
+#slider-el {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 60%; /* Full-width */
+    height: 10px; /* Specified height */
+    background: #cacaca; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+    margin-top: 60px;
+}
+
+#slider-el:hover{
+    opacity: 1;
+}
+
+#slider-el::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px;
+    border-radius: 50px; /* Slider handle height */
+    background: #10B981; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+
+
+  
